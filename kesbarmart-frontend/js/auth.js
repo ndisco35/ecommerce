@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000/api"; // update if needed
+const API_BASE = "https://ecommerce-wjx0.onrender.com/api"; // update if needed
 
 // ✅ Save token in localStorage
 function saveToken(token) {
