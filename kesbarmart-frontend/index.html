@@ -10,7 +10,37 @@
   color:white;
   font-weight: bold;
   }
-    .menu-toggle{display:none}
+    /* Default: show everything on desktop */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
     @media (max-width: 768px) {
   .nav-links {
     display: none; /* hide links on mobile */
@@ -40,19 +70,22 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">JoMart</div>
-    <ul class="nav-links" id="menu">
-      <li><a href="index">Home</a></li>
-      <li><a href="#" id="category-link">Categories</a></li>
-      <li><a href="login" id="login-link">Login</a></li>
-      <li><a href="register">Register</a></li>
-    </ul>
-    <div class="icons">
-    <a href="cart.html" class="cart-icon">🛒<sup id="counter"></sup></a>
-    <button class="menu-toggle" onclick="menu.hidden^=1">☰</button>
-  </div>
+ <header class="navbar">
+  <div class="logo">KesbarMart</div>
+
+  <nav class="nav-links">
+    <a href="/">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Categories</a>
+    <a href="login">Login</a>
   </nav>
+
+  <div class="icons">
+    <a href="/cart.html" class="cart-icon">🛒<sup id="counter"></sup> </a>
+    <button class="menu-toggle">☰</button>
+  </div>
+</header>
+
 
   <!-- Search Bar -->
   <section class="search-section">
@@ -76,5 +109,13 @@
   </section>
 
   <script src="js/main.js"></script>
+  <script>
+  const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+</script>
 </body>
 </html>
