@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000/api"; 
+const API_BASE = "https://ecommerce-wjx0.onrender.com/api"; 
 const productList= document.getElementById("form-wrap");
 const token = localStorage.getItem("token");
 // Get query string params (id from URL)
