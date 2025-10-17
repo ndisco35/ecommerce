@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000/api"; // update if your API runs elsewhere
+const API_BASE = "https://ecommerce-wjx0.onrender.com/api"; // update if your API runs elsewhere
 
 // Selectors
 const productGrid = document.getElementById("product-grid");
