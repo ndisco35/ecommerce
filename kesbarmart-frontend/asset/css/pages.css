@@ -1,0 +1,107 @@
+/* project page */
+.page-title{
+	margin-left:5px;
+}
+.header-tap{display:flex;}
+.header-tap a {color:white;}
+
+.content-wrapper{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	height: auto;
+}
+.topics{padding-left: 5px;
+	width:70%;
+	height:auto;
+	background:none;
+	margin-left: 10px;
+	margin-bottom: 20px;
+
+}
+.gadgets{
+	width:300px;
+	height:600px;
+	margin-left: 13px;
+	background: white;
+	padding-top: 10px;
+	padding-left: 7px;
+	margin-bottom: 20px;
+}
+.topic-content p{
+	font-size: 15px;
+}
+.topic-content{
+	background: white;
+	
+	padding: 7px;
+	line-height: 20px;
+	border-radius: 8px;
+	height:auto;
+	font-weight: bold;
+	color:darkgreen;margin-bottom: 10px;
+	width:100%;
+	box-shadow: 2px  2px 2px 2px silver;
+}
+.search-container, .search-box{
+width:100%;
+}
+.search-topic{width:90%;}
+.topic-latest{
+	background:white;
+	padding: 7px;
+	line-height: 20px;
+	border-radius: 8px;
+	height:auto;
+	color:darkgreen;margin-bottom: 10px;
+	width:96%;
+	box-shadow: 2px  2px 2px 2px silver;
+}
+.latest-topic{margin-top: 10px;}
+
+/* style for display project */
+.topic-context{
+	background: white;
+	
+	padding: 7px;
+	line-height: 20px;
+	border-radius: 8px;
+	height:auto;
+	
+	color:black;margin-bottom: 10px;
+	width:100%;
+	box-shadow: 2px  2px 2px 2px silv
+}
+.context{
+	text-align: justify;
+}
+
+/* style for handout */
+.course-wrapper{
+	margin-top: 30px;
+	margin-left: 15px;
+}
+th{background: black;
+color:white;}
+
+.course-display{width:95%;
+text-overflow: break;}
+
+/* style for assignment page */
+.thumbnail{width:400px;
+height:300px;  }
+/* responsive style */
+@media screen and (max-width:990px){
+.topics{
+	width:97%;
+}
+.thumbnail{height:40%; 
+
+}
+.gadgets{width:97%;}
+}
+@media screen and (max-width:375px){
+.thumbnail{height: 230px;}
+}

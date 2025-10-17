@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KesbarMart</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+  #counter{
+  color:white;
+  font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">JoMart</div>
+    <ul class="nav-links">
+      <li><a href="index">Home</a></li>
+      <li><a href="#" id="category-link">Categories</a></li>
+      <li><a href="login" id="login-link">Login</a></li>
+      <li><a href="register">Register</a></li>
+      <li><a href="cart.html">Cart 🛒<sup id="counter"></sup> </a></li>
+    </ul>
+  </nav>
+
+  <!-- Search Bar -->
+  <section class="search-section">
+    <input type="text" id="search-input" placeholder="Search for products..." />
+    <button id="search-btn">Search</button>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <button class="category-btn" data-category="Electronics">Electronics</button>
+    <button class="category-btn" data-category="fashion">Fashion</button>
+    <button class="category-btn" data-category="groceries">Groceries</button>
+    <button class="category-btn" data-category="office">Office</button>
+    <button class="category-btn" data-category="Jewelries">Jewelries</button>
+     <button class="category-btn" onclick="fetchProducts()">All</button>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="product-grid" id="product-grid">
+    <!-- Products will be injected here with JS -->
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

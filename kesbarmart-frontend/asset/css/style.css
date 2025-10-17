@@ -1,0 +1,503 @@
+/* top menu styles */
+.topmenu{background:#06a94d;
+color:white;
+padding: 22px;}
+
+.contact{margin-left:px;
+ float:left;
+ line-height:30px;font-size:14px;}
+
+ .btnsrch{background: inherit;
+
+line-height:25px;
+
+border-width:1px;
+
+border-color:white;
+
+border-radius:5px;
+
+border-style:solid;
+
+color:white;
+
+font-family: Roboto;
+
+font-size:15px;
+
+width:80px;
+margin-left:8px;
+}
+
+/* navigation bar */
+
+.checkbtn{
+ color:green;
+
+ font-size:30px;
+
+ border-width:0px;
+
+ line-height:60px;
+ margin-right:40px;
+
+ float: right;
+ cursor: pointer;
+ 
+display: none;}
+
+ #check{display:none;
+ float:left;}
+ 
+*{text-decoration:none;
+ 
+padding:0;
+ margin:0;
+ 
+list-style:none;
+ 
+box-sizing:border-box;
+ }
+ 
+.fa-bars{
+ border-style:solid;
+
+ border-radius:5px;
+
+ background:#06a94d;
+
+ font-size:20px;
+ 
+width:40px;
+ color:white;
+
+ padding:8px;}
+
+
+ html,body{font-family: Roboto;
+
+ background:rgb(240,255,270);
+
+ margin:0px;
+ }
+ 
+nav{height:60px;
+background-color:whitesmoke;
+ width:100%;
+
+ }
+
+ nav ul{
+ float:right;
+ 
+animation-name: example;
+
+ animation-duration:3s;
+
+ margin-right:20px;}
+
+ nav ul li{
+ display:inline-block;
+
+ line-height:65px;
+
+ margin: 0 5px;
+ }
+
+ nav ul li a {color:#32CD32;
+
+ padding: 7px 13px;
+
+ border-radius:3px;
+
+ font-size:1.2vw;}
+
+ nav ul li a.active,a:hover{
+ background: #32CD32;
+color:white;
+text-decoration:none; 
+ transition: .15s;}
+
+
+ /* intro section */
+ 
+.intro-sec{background-image:url('images/bg.jpg');
+
+background-size:cover;
+
+background-position: center;
+
+background-attachement:fixed;
+
+background-repeat:no-repeat;
+
+height:450px;
+
+width:100%;
+
+padding-top:120px;
+
+margin:0 auto;
+}
+
+.content{width:95%;
+height:auto;
+padding-right:5px;
+padding-left:5px;
+color:white;
+}
+
+
+h4,h5,h1,h6{display:inline-block;
+
+background:none;}
+
+
+
+
+/* main body section of the site*/
+
+
+.section-description{color:#002D62;
+font-size:25px;
+font-weight:bold;}
+ /* offers section*/
+ 
+
+.offer-container{margin-top:10px;
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+flex-direction:row;
+ padding:10px 8px 5px 8px ;}
+
+
+.offer-item{
+    background:white;
+
+border-radius:3px;
+width:400px;
+    font-size:15px;
+
+    padding:5px;
+
+    height:440px;
+
+   margin-bottom:25px;
+
+    content-visibility:auto;
+
+    text-align:center;
+
+    font-family:Roboto;
+}
+
+
+/* why choose us */
+.choose-container{margin-top:10px;
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+flex-direction:row;
+ padding:10px 8px 5px 8px ;
+margin-botom:30px;}
+
+.choose-item{
+    background:white;
+
+border-radius:3px;
+width:400px;
+    font-size:15px;
+
+    padding:5px;
+
+    height:auto;
+margin-left: 10px;
+   margin-bottom:20px;
+
+box-shadow:0px 0px 2px 0px silver;
+content-visibility:auto;
+
+    text-align:center;
+
+    font-family:Roboto;
+    padding: 5px;
+}
+
+.choose-icon{
+text-align:center;
+border-style:solid;
+font-size:35px;
+display:inline-block;
+background:green;
+color:white;
+width:65px;
+height:65px;
+padding-top:20px;
+border-radius:100%;}
+
+/* image formatting */
+
+
+.d-image{width:95%;
+
+margin-top:10px;
+
+margin-bottom:10px;
+
+background:cyan;
+
+content-visibility:auto;
+
+height:220px;}
+
+.action{border-width:0px;
+    color:white;
+ 
+   padding:5px;
+ 
+   width:200px;
+
+    border-radius:25px;
+ 
+   height:50px;
+}
+
+.d-image:hover{
+opacity:0.5}
+
+
+.logos{width:200px;
+
+margin-bottom:10px;
+
+position: absolute;
+
+top:0px;
+height:150px;
+
+display:inline-block;
+
+float:right;
+left:34;
+
+}
+
+.testy{
+    border-radius:3px;
+
+    height:400px;
+    content-visibility:auto;
+
+    margin-bottom:0px;
+   
+ padding-bottom:0px;
+}
+
+
+.test-image{
+width:50px;
+height:50px;
+border-radius: 100%; 
+box-shadow: 2px 2px 3px 2px silver;"
+   
+}
+
+.testimony-item{
+box-shadow: 1px 1px 1px 1p silver;
+text-align: center;
+margin-left: 30px;
+}
+
+
+.testimony{margin-bottom:20px;}
+
+.socials{width:100%;
+
+height:200px;
+
+text-align:center;
+
+text-overflow: hidden;
+
+color:white;
+padding-top:20px;
+
+padding-bottom:10px;
+font-size:15px;
+
+background:url('images/group.jpg'); 
+background-size:100% auto;
+
+background-repeat:no-repeat;}
+
+
+
+
+/* style for footer section */
+
+.footer{background:#023020;
+
+height:auto;
+color: white;
+
+padding-top:30px;
+
+padding-left:10px;
+width:100%;}
+
+
+.join{border-color:white;
+border-radius:10px;
+font-size:20px;}
+
+
+.links{
+margin-top:10px;}
+
+.links a{color:cyan; text-align:left;}
+
+.linkz{margin-top:30px;}
+
+
+.media{margin-left:10px;
+
+border-style:solid;
+
+display:inline-block;
+
+width:35px;
+height:35px;
+
+padding:7px;
+border-radius:100%;}
+
+
+
+#more-options{width:100%;
+ 
+background:#023020;
+position: absolute;
+ padding-bottom:15px;
+ 
+display:none;
+z-index: 99;
+ 
+color:#32CD32;}
+
+ #more-options a{text-decoration:none;
+
+ color:white;}
+ 
+hr{background:white;}
+
+
+/*RESPONSIVE STYLE */
+
+@media screen and (min-width:1000){
+.logo{
+font-size:11px;
+padding-left:40px;}
+
+nav ul li a{font-size:10px; 
+ 
+background:red; }  }
+
+/* medium screen size */
+
+@media screen and (max-width:990px){
+.logo{
+       font-size:18px;
+       padding-left:3px;}
+nav{
+        padding-left: 2px;
+       }
+
+nav ul li a{ font-size:16px; 
+  }    
+.content{width:100%;
+font-size:13px;
+}
+.checkbtn{display:block;}
+
+.intro-sec{
+ height:500px;}
+ 
+.intro-text{16px;}
+#more-navg{display:block;
+
+ color:#32CD32;
+
+ font-size:12px;}
+ 
+#list{margin-bottom:0px;}
+ 
+ ul{position: absolute;
+
+  width:100%;
+  height:100vh;
+  padding-bottom:10px;
+
+  top:120px;
+  color:green;
+
+background:rgb(240,255,270);
+ 
+ left:0;
+ 
+ text-align:center;
+ 
+ display: none;
+  z-index:999;
+  }
+
+nav ul li {display:block;
+
+margin-bottom:0px;}
+
+ nav ul li a{
+     font-size:12px;
+
+     margin-bottom:0px;
+ }
+ 
+a.active,a:hover{
+     background:green;
+
+     color:white;
+ }
+ 
+#check:checked ~ ul {
+ left:0;
+     display: block;
+ }
+ 
+.offers{display:nohne;}
+ 
+.testy{display:nhone;}
+}
+ 
+
+
+ /* phone screen*/
+
+ @media screen and (max-width:375px)
+{
+ .logo{margin-left:2px;
+ font-size:20px; }
+ 
+ #more-navg{display:block;
+  color:32CD32;
+ font-size:12px;}
+
+ .content{font-size:15px;
+
+ width:500px;
+ color: white;}
+
+ .intro-text{
+ font-size:12px;}
+ }
+

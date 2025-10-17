@@ -1,0 +1,122 @@
+/* project form */
+.form-background{
+	width:800px;
+	height:830px;
+	background-color:darkgreen;
+	opacity: 0.3;
+	margin-left:200px;
+	margin-top: 20px;
+
+}
+.form-container{
+	color:white;
+	position:absolute;
+	top:12px;
+	left:210px;
+	width:60%;
+	height:800px;
+	z-index:999;
+padding: 13px 13px;
+}
+.form-header{display:flex;}
+.txt{width:98%;
+}
+.txt:active{
+	border-color: green;
+}
+.input-label{
+	font-weight:bold;
+}
+
+
+/*handout form starts */
+.form-wrapper{margin-top: 40px;
+	padding-left: 18px;
+background: white;
+padding-top:10px;
+border-radius: 8px;
+width:50%;
+height:550px;
+margin-left:350px;
+}
+.input-txt{
+width:97%;
+height: 20px;
+}
+#reg-form{display:noneh;}
+/* message box starts */
+.message{margin-top: 125px;
+	padding-left: 15px;
+	padding-right: 15px;
+background: white;
+padding-top:10px;
+border-radius: 8px;
+width:30%;
+height:350px;
+text-align: center;
+ box-shadow: 2px 2px  2px 1px silver;
+margin-left:470px;
+}
+
+/* style for member login */
+.option-tap{display:flex;
+	padding-left: 30px;
+flex-direction: row;}
+.option-item{background-color: #eaedf0;
+	margin-top: 20px;
+	font-weight: bold;
+	color:green;
+	padding-top: 5px;
+	box-shadow: 1px 1px 1px 1px silver;
+width:130px;
+margin-right:13px;
+height: 130px;}
+/* resposive form */
+@media screen and (max-width:1100px){
+.form-wrapper{
+	margin-left:230px;
+	}
+.message{
+	margin-left:345px;
+	}
+}
+#alertMsg{color:green;
+display: none;}
+@media screen and (max-width:745px){
+.form-wrapper{
+	margin-left:14px;
+
+	width:96%;
+	}
+	.message{
+	margin-left:14px;
+	width:96%;
+	}
+	body{padding-right: 15px;
+	padding-right: 15px;}
+.frm-title{font-size: 15px;}
+}
+/* resposive style ends here */
+
+/*admin login style */
+.users{outline: 0;
+border-top-width:0px;
+border-left-width:0px;
+border-right-width:0px;
+border-bottom-width: 2px;
+background: inherit;
+border-bottom-color: white;
+color:white;
+border-style: solid;}
+.users:focus{
+border:none;
+border-top-width:0px;
+border-left-width:0px;
+border-right-width:0px;
+border-bottom-width: 2px;
+border-style: solid;
+border-bottom-color: white;
+color:white;}
+.admin-wrapper{
+	box-shadow: 1px 2px 3px 2px whitesmoke;
+}

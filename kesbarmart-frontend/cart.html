@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart - KesbarMart</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🛒 KesbarMart</div>
+    <ul class="nav-links">
+      <li><a href="index">Home</a></li>
+      <li><a href="orders">Orders</a></li>
+      <li><a href="#" id="logout">Logout</a></li>
+    </ul>
+  </nav>
+
+  <section class="cart-section">
+    <h2>Your Shopping Cart</h2>
+    <div id="cart-container" class="cart-container">
+      <!-- Cart items will be dynamically added here -->
+    </div>
+
+    <div class="cart-summary">
+      <h3>Total: $<span id="cart-total">0.00</span></h3>
+      <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <script src="js/auth.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
