@@ -10,19 +10,48 @@
   color:white;
   font-weight: bold;
   }
+    .menu-toggle{display:none}
+    @media (max-width: 768px) {
+  .nav-links {
+    display: none; /* hide links on mobile */
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex; /* show when menu toggled */
+  }
+
+  .menu-toggle {
+    display: block; /* show the menu icon */
+  }
+
+  .cart-icon {
+    font-size: 1.5rem;
+  }
+}
   </style>
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar">
     <div class="logo">JoMart</div>
-    <ul class="nav-links">
+    <ul class="nav-links" id="menu">
       <li><a href="index">Home</a></li>
       <li><a href="#" id="category-link">Categories</a></li>
       <li><a href="login" id="login-link">Login</a></li>
       <li><a href="register">Register</a></li>
-      <li><a href="cart.html">Cart 🛒<sup id="counter"></sup> </a></li>
     </ul>
+    <div class="icons">
+    <a href="cart.html" class="cart-icon">🛒<sup id="counter"></sup></a>
+    <button class="menu-toggle" onclick="menu.hidden^=1">☰</button>
+  </div>
   </nav>
 
   <!-- Search Bar -->
